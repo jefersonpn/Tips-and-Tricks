@@ -4,9 +4,10 @@ include 'pdo_conn.php';
 
 $conn = getConnection();
 
-$sql = "SELECT * FROM users"; //query which will be executed
+$sql = "SELECT * FROM users"; // WHERE id = :id"; //query which will be executed
 
 $stmt = $conn->prepare($sql);
+//$stmt->bindValue(':id', 1);//If you need to get a particular data, like only one user
 $stmt->execute();//executing query
 
 $result = $stmt->fetchAll();//getting all the data in the $result variable
