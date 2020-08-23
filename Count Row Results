@@ -1,0 +1,13 @@
+<?php
+
+function rowCount($conn, $query){
+    $stmt = $conn->prepare($query);
+    $stmt->execute();
+    return $stmt->rowCount();
+}
+
+
+
+//after you can code just these on the line you want.
+
+echo rowCount($conn,"SELECT * FROM lista_presenca");
