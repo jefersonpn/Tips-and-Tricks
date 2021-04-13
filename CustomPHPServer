@@ -1,0 +1,20 @@
+How to start a server with a personal root path in your PC.
+
+1 - Create a folder on your Windows Explorer (anywhere)
+2 - Copy the path (ex. c:\projects\miniframework\public)
+3 - Open CMD (Comand Prompt)
+4 - type ( php -v ) if you get the version of the php installed on your pc! jump to ( #8 - step ) other ways, we will need to add the php path to be executed anywhere in your prompt
+5 - Go to : " advanced system configurations ", giving a right click on your " c: " icon and going to " properties ". them click on " environment variables ", after that double click on " Path " and becarefull add the path of your php folder like: ( c:\xampp\php )
+6 - After that, close your CMD and reopen... 
+7 - Try again " php -v " -> it should works now...
+8 - Navegate to the folder path you created to keep your projects in, copy the path " (ex. c:\projects\miniframework\public) "
+9 - Type on CMD " cd c:\projects\miniframework\public "
+10 - Type " php -S c:\projects\miniframework\public  localhost:8080 " -> you can use others ports aswell.
+ 
+ 
+Create a file on the directory folder your shoose like " index.php " 
+Then its done... go to your browser and type " localhost:8080 "
+
+Any question send me a email jefersonpn@gmail.com
+or call me +5556791200282 -> please check the time on Dourados-MS on google... coz of the time zone.
+
