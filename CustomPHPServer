@@ -9,7 +9,7 @@ How to start a server with a personal root path in your PC.
 7 - Try again " php -v " -> it should works now...
 8 - Navegate to the folder path you created to keep your projects in, copy the path " (ex. c:\projects\miniframework\public) "
 9 - Type on CMD " cd c:\projects\miniframework\public "
-10 - Type " php -S c:\projects\miniframework\public  localhost:8080 " -> you can use others ports aswell.
+10 - Type " php -S localhost:8080 " -> you can use others ports aswell.
  
  
 Create a file on the directory folder your shoose like " index.php " 
