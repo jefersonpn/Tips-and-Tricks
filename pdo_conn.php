@@ -13,10 +13,10 @@ try
         echo 'Error message: <strong>'.$ex->getMessage().'</strong>';
      }
 
-// insert and delete 
+// insert and delete - create a connection.php
 function insert_product($name, $brand, $model, $quantity)
 {
-    include 'connection1.php';
+    include 'connection.php';
 
     //inserire questo codice dal php- INSERT query with positional placeholders
     $sql = "INSERT INTO prodotto (nome, marchio, modello, quantita) VALUES (?,?,?,?)";
