@@ -2,14 +2,14 @@
 
 #### Install bootstrap as you would any other JS module in the Vue project using npm install or by adding it to the package.json...
 
-'''cmd
+'''command
 npm install --save bootstrap
 npm install --save @popperjs/core
 '''
 
 #### Next, add the Bootstrap CSS and JS components to the Vue project entrypoint (ie: src/main.js)...
 
-'''cmd
+'''command
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 '''
